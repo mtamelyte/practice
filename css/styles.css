@@ -1,6 +1,8 @@
 body{
     display: flex;
     flex-direction: column;
+    font-family: Roboto, sans-serif;
+    width: 100vw;
 }
 
 .header{
@@ -8,8 +10,14 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #1F2937;
+    padding-left: 72px;
+    padding-right: 72px;
+    width: 100%;
 }
 
 .header p{
-    
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8
 }
