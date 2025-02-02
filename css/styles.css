@@ -30,6 +30,7 @@ body{
 
 .one{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     gap: 48px;
@@ -76,7 +77,8 @@ body{
 
 .two{
     text-align: center;
-    padding: 48px 0;
+    padding: 48px 240px;
+    padding-bottom: 96px;
 }
 
 .images{
@@ -105,4 +107,18 @@ body{
 
 .three{
     background-color: #E5E7EB;
+    padding: 96px 430px;
+}
+
+.three .quote{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.three .person{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
 }
