@@ -2,7 +2,6 @@ body{
     display: flex;
     flex-direction: column;
     font-family: Roboto, sans-serif;
-    width: 100vw;
 }
 
 .header{
@@ -13,7 +12,6 @@ body{
     background-color: #1F2937;
     padding-left: 72px;
     padding-right: 72px;
-    width: 100%;
 }
 
 .header p{
