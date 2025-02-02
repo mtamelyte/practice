@@ -122,3 +122,34 @@ body{
     font-weight: bold;
     text-align: right;
 }
+
+.four{
+    padding: 96px 240px;
+}
+.call{
+    background-color: #3882F6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: #F9FAF8;
+    padding: 24px 0;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.four button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 700;
+    border: 2px solid #F9FAF8;
+    border-radius: 7px;
+    padding: 12px 48px;
+}
