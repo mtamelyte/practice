@@ -29,4 +29,22 @@ body{
 
 .one{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.one h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.one p{
+    font-size: 18px;
+    color: #E5e7eb   
+}
+
+.left{
+    width: 450px;
 }
