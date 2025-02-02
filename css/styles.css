@@ -81,6 +81,7 @@ body{
 
 .images{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 48px;
     padding-top: 48px;
@@ -100,4 +101,8 @@ body{
 .img p{
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.three{
+    background-color: #E5E7EB;
 }
