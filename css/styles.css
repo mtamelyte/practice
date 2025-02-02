@@ -10,8 +10,9 @@ body{
     flex-grow:0;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #1F2937;
+    padding: 0 240px;
 }
 
 .header p{
@@ -29,9 +30,11 @@ body{
 
 .one{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    gap: 48px;
     background-color: #1F2937;
+    padding: 72px 240px;
 }
 
 .one h1{
@@ -47,4 +50,14 @@ body{
 
 .left{
     width: 450px;
+}
+
+.right{
+    width: 650px;
+    height: 300px;
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
