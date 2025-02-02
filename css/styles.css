@@ -26,3 +26,7 @@ body{
     gap: 16px;
     color: #E5E7EB
 }
+
+.one{
+    display: flex;
+}
